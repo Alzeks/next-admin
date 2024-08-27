@@ -1,9 +1,14 @@
+import Link from "next/link";
+import styles from "../app/ui/dashbord/dashbord.module.css";
+
 const Homepage = () => {
 
   return (
-    <div className="bg-green-500">
-      <h1 className='border-2 text-slate-200'>Homepage</h1>
-      </div>
+    <div className={styles.maincontainer}>
+      <h1 className=''>Homepage</h1>
+      <Link href='/login' className={styles.mainblock}>To Login</Link>
+      <Link href='/dashboard' className={styles.mainblock}>To Dashboard</Link>
+    </div>
   )
 }
-    export default Homepage;
+export default Homepage;
