@@ -1,9 +1,9 @@
-import { cards } from "../lib/data";
-import Card from "../ui/dashbord/card/card";
-import Chart from "../ui/dashbord/chart/chart";
-import styles from "../ui/dashbord/dashbord.module.css";
-import Rightbar from "../ui/dashbord/rightbar/rightbar";
-import Transactions from "../ui/dashbord/transactions/transactions";
+import { cards } from "../../lib/data";
+import Card from "../dashbord/card/card";
+import Chart from "../dashbord/chart/chart";
+import styles from "../dashbord/dashbord.module.css";
+import Rightbar from "../dashbord/rightbar/rightbar";
+import Transactions from "../dashbord/transactions/transactions";
 
 const Dashboard = () => {
   return (
