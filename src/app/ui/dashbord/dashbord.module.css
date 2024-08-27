@@ -34,8 +34,18 @@
     flex: 1;
   }
 
-  /* .children{
-     height: 67vh; 
-    display: flex; 
-  } */
-
+/* main page */
+  .maincontainer{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+   
+  }
+  .mainblock{
+    flex: 1;
+    background-color: #182237;
+    cursor: pointer;
+    padding: 10px;
+  }
