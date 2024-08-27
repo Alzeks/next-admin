@@ -40,7 +40,7 @@ export const fetchProducts = async (q, page) => {
     const products = await Product.find({ title: { $regex: regex } })
     .limit(ITEM_PER_PAGE)
     .skip(ITEM_PER_PAGE * (page - 1));
-    if (products) { return  count, products} ;
+    if (products)  return  {count, products} ;
     return { count: 0, products: [] }
   } catch (err) {
     console.log(err);
